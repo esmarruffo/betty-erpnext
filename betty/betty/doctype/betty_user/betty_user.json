@@ -10,7 +10,7 @@
   "default_company",
   "first_name",
   "telegram_user_id",
-  "telegram_chat_id",
+  "language",
   "preferences"
  ],
  "fields": [
@@ -22,11 +22,6 @@
    "options": "User",
    "reqd": 1,
    "unique": 1
-  },
-  {
-   "fieldname": "telegram_chat_id",
-   "fieldtype": "Data",
-   "label": "Telegram Chat ID"
   },
   {
    "fieldname": "preferences",
@@ -51,14 +46,19 @@
    "fieldname": "telegram_user_id",
    "fieldtype": "Data",
    "label": "Telegram User ID",
-   "reqd": 1,
-   "unique": 1
+   "reqd": 1
+  },
+  {
+   "fieldname": "language",
+   "fieldtype": "Link",
+   "label": "Language",
+   "options": "Language"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-11-18 23:44:45.636326",
+ "modified": "2025-11-29 21:20:57.012236",
  "modified_by": "Administrator",
  "module": "Betty",
  "name": "Betty User",
