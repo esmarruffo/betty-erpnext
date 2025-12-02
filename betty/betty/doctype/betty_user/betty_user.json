@@ -9,8 +9,9 @@
   "erpnext_user",
   "default_company",
   "first_name",
-  "telegram_user_id",
   "language",
+  "telegram_user_id",
+  "app_bearer_token",
   "preferences"
  ],
  "fields": [
@@ -53,12 +54,17 @@
    "fieldtype": "Link",
    "label": "Language",
    "options": "Language"
+  },
+  {
+   "fieldname": "app_bearer_token",
+   "fieldtype": "Data",
+   "label": "App Bearer Token"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-11-29 21:20:57.012236",
+ "modified": "2025-12-01 12:13:20.377216",
  "modified_by": "Administrator",
  "module": "Betty",
  "name": "Betty User",
