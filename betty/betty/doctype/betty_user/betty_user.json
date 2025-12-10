@@ -12,6 +12,8 @@
   "language",
   "telegram_user_id",
   "app_bearer_token",
+  "erpnext_api_key",
+  "erpnext_api_secret",
   "preferences"
  ],
  "fields": [
@@ -59,12 +61,24 @@
    "fieldname": "app_bearer_token",
    "fieldtype": "Data",
    "label": "App Bearer Token"
+  },
+  {
+   "fieldname": "erpnext_api_key",
+   "fieldtype": "Data",
+   "label": "API Key",
+   "length": 15
+  },
+  {
+   "fieldname": "erpnext_api_secret",
+   "fieldtype": "Data",
+   "label": "API Secret",
+   "length": 15
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-01 12:13:20.377216",
+ "modified": "2025-12-10 11:03:37.072254",
  "modified_by": "Administrator",
  "module": "Betty",
  "name": "Betty User",
